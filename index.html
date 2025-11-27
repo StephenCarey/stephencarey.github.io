@@ -1,1 +1,56 @@
-Its Alive!
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stephen Carey - CTO, Developer, Builder</title>
+    <meta name="description"
+        content="Personal landing page of Stephen Carey, CTO of HR Duo, Developer, Builder, and Technology Enthusiast.">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="profile-header">
+                <img src="https://avatars.githubusercontent.com/u/8570026?v=4" alt="Stephen Carey" class="avatar">
+                <div>
+                    <h1>Stephen Carey</h1>
+                    <div class="title">CTO @ HR Duo</div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <p class="bio">
+                Developer, builder, and technology enthusiast. Passionate about creating impactful software and leading
+                engineering teams.
+            </p>
+
+            <div class="links">
+                <a href="https://github.com/StephenCarey" class="link-card" target="_blank" rel="noopener noreferrer">
+                    GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/stephen-carey-ie" class="link-card" target="_blank"
+                    rel="noopener noreferrer">
+                    LinkedIn
+                </a>
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        &copy; <span id="year"></span> Stephen Carey. All rights reserved.
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
